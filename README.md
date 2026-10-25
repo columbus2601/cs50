@@ -19,3 +19,7 @@ Repository with solutions and tests for Harvard's CS50 AI (Introduction to Artif
 - **[Minesweeper](minesweeper/)**: Knowledge-based AI agent to play Minesweeper using propositional logic sentences and subset-based inference.
   - Implementation: `Sentence` methods and `MinesweeperAI` methods (`add_knowledge`, `make_safe_move`, `make_random_move`) in [`minesweeper.py`](minesweeper/minesweeper.py)
   - Graphical interface playable via `runner.py`.
+
+### Project 2: Uncertainty
+- **[PageRank](pagerank/)**: Estimate web page importance using both a Markov Chain Random Surfer sampling model and the recursive iterative PageRank algorithm.
+  - Implementation: `transition_model`, `sample_pagerank`, and `iterate_pagerank` in [`pagerank.py`](pagerank/pagerank.py)
