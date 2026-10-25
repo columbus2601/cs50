@@ -36,3 +36,9 @@ Repository with solutions and tests for Harvard's CS50 AI (Introduction to Artif
   - Implementation: `load_data`, `train_model`, and `evaluate` (sensitivity & specificity) in [`shopping.py`](shopping/shopping.py)
 - **[Nim](nim/)**: Reinforcement learning agent that learns to play Nim optimally via Q-learning and $\epsilon$-greedy exploration.
   - Implementation: `get_q_value`, `update_q_value`, `best_future_reward`, and `choose_action` in [`nim.py`](nim/nim.py)
+
+### Project 5: Neural Networks
+- **[Traffic](traffic/)**: Convolutional Neural Network (CNN) in TensorFlow/Keras to classify 43 categories of road signs from the German Traffic Sign Recognition Benchmark (GTSRB).
+  - Implementation: `load_data` and `get_model` in [`traffic.py`](traffic/traffic.py)
+  - Experimentation writeup: [`README.md`](traffic/README.md)
+  - Achieves $98.57\%$ test accuracy on over 10,000 test images.
