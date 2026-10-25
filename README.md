@@ -23,3 +23,5 @@ Repository with solutions and tests for Harvard's CS50 AI (Introduction to Artif
 ### Project 2: Uncertainty
 - **[PageRank](pagerank/)**: Estimate web page importance using both a Markov Chain Random Surfer sampling model and the recursive iterative PageRank algorithm.
   - Implementation: `transition_model`, `sample_pagerank`, and `iterate_pagerank` in [`pagerank.py`](pagerank/pagerank.py)
+- **[Heredity](heredity/)**: Assess the likelihood that a person carries mutated genes and exhibits genetic traits using a Bayesian Network.
+  - Implementation: `joint_probability`, `update`, and `normalize` in [`heredity.py`](heredity/heredity.py)
