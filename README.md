@@ -42,3 +42,8 @@ Repository with solutions and tests for Harvard's CS50 AI (Introduction to Artif
   - Implementation: `load_data` and `get_model` in [`traffic.py`](traffic/traffic.py)
   - Experimentation writeup: [`README.md`](traffic/README.md)
   - Achieves $98.57\%$ test accuracy on over 10,000 test images.
+
+### Project 6: Language
+- **[Parser](parser/)**: Context-Free Grammar (CFG) parser in Python with NLTK to parse sentences and extract Noun Phrase (NP) chunks.
+  - Implementation: `preprocess`, `np_chunk`, and `NONTERMINALS` CFG production rules in [`parser.py`](parser/parser.py)
+  - Parses compound sentences, multi-adjective phrases, adverbials, prepositional attachments, and identifies non-nested noun phrase chunks.
