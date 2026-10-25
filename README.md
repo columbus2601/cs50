@@ -25,3 +25,8 @@ Repository with solutions and tests for Harvard's CS50 AI (Introduction to Artif
   - Implementation: `transition_model`, `sample_pagerank`, and `iterate_pagerank` in [`pagerank.py`](pagerank/pagerank.py)
 - **[Heredity](heredity/)**: Assess the likelihood that a person carries mutated genes and exhibits genetic traits using a Bayesian Network.
   - Implementation: `joint_probability`, `update`, and `normalize` in [`heredity.py`](heredity/heredity.py)
+
+### Project 3: Optimization
+- **[Crossword](crossword/)**: Generate crossword puzzles modeled as a Constraint Satisfaction Problem (CSP).
+  - Implementation: `enforce_node_consistency`, `revise`, `ac3`, `assignment_complete`, `consistent`, `order_domain_values`, `select_unassigned_variable`, and `backtrack` in [`generate.py`](crossword/generate.py)
+  - Uses AC-3 for arc consistency, Minimum Remaining Values (MRV) & Degree Heuristic for variable selection, and Least-Constraining Values (LCV) for value ordering.
