@@ -34,3 +34,5 @@ Repository with solutions and tests for Harvard's CS50 AI (Introduction to Artif
 ### Project 4: Learning
 - **[Shopping](shopping/)**: Predict online customer purchase intent using a $k$-Nearest Neighbors classifier ($k=1$).
   - Implementation: `load_data`, `train_model`, and `evaluate` (sensitivity & specificity) in [`shopping.py`](shopping/shopping.py)
+- **[Nim](nim/)**: Reinforcement learning agent that learns to play Nim optimally via Q-learning and $\epsilon$-greedy exploration.
+  - Implementation: `get_q_value`, `update_q_value`, `best_future_reward`, and `choose_action` in [`nim.py`](nim/nim.py)
