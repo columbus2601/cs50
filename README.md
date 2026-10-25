@@ -30,3 +30,7 @@ Repository with solutions and tests for Harvard's CS50 AI (Introduction to Artif
 - **[Crossword](crossword/)**: Generate crossword puzzles modeled as a Constraint Satisfaction Problem (CSP).
   - Implementation: `enforce_node_consistency`, `revise`, `ac3`, `assignment_complete`, `consistent`, `order_domain_values`, `select_unassigned_variable`, and `backtrack` in [`generate.py`](crossword/generate.py)
   - Uses AC-3 for arc consistency, Minimum Remaining Values (MRV) & Degree Heuristic for variable selection, and Least-Constraining Values (LCV) for value ordering.
+
+### Project 4: Learning
+- **[Shopping](shopping/)**: Predict online customer purchase intent using a $k$-Nearest Neighbors classifier ($k=1$).
+  - Implementation: `load_data`, `train_model`, and `evaluate` (sensitivity & specificity) in [`shopping.py`](shopping/shopping.py)
