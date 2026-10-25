@@ -47,3 +47,6 @@ Repository with solutions and tests for Harvard's CS50 AI (Introduction to Artif
 - **[Parser](parser/)**: Context-Free Grammar (CFG) parser in Python with NLTK to parse sentences and extract Noun Phrase (NP) chunks.
   - Implementation: `preprocess`, `np_chunk`, and `NONTERMINALS` CFG production rules in [`parser.py`](parser/parser.py)
   - Parses compound sentences, multi-adjective phrases, adverbials, prepositional attachments, and identifies non-nested noun phrase chunks.
+- **[Attention](attention/)**: Transformer-based Masked Language Model using BERT (`bert-base-uncased`) to predict masked tokens and visualize attention maps across 144 attention heads.
+  - Implementation: `get_mask_token_index`, `get_color_for_attention_score`, and `visualize_attentions` in [`mask.py`](attention/mask.py)
+  - Attention analysis writeup: [`analysis.md`](attention/analysis.md) (identifying previous-token tracking in Layer 4 Head 6 and modifier-to-noun binding in Layer 5 Head 6).
