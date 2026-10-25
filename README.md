@@ -16,3 +16,6 @@ Repository with solutions and tests for Harvard's CS50 AI (Introduction to Artif
 - **[Knights](knights/)**: Solve Knights and Knaves logic puzzles using Propositional Logic and Model Checking.
   - Implementation: Knowledge bases `knowledge0`, `knowledge1`, `knowledge2`, and `knowledge3` in [`puzzle.py`](knights/puzzle.py)
   - Encodes general problem rules (knight or knave, not both) and character statements via logical biconditionals/implications.
+- **[Minesweeper](minesweeper/)**: Knowledge-based AI agent to play Minesweeper using propositional logic sentences and subset-based inference.
+  - Implementation: `Sentence` methods and `MinesweeperAI` methods (`add_knowledge`, `make_safe_move`, `make_random_move`) in [`minesweeper.py`](minesweeper/minesweeper.py)
+  - Graphical interface playable via `runner.py`.
